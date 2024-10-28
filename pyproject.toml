@@ -16,3 +16,6 @@ requires-python = ">=3.10"
 
 [project.entry-points."console_scripts"]
 console_bundle = "calculator_bundle.multiplier:multiply"
+
+[project.optional-dependencies]
+test = ["pytest"]
