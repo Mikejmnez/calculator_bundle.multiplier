@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "multiplier"
+name = "calculator_bundle.multiplier"
 version = "0.1.0"
 description = "A simple package to multiply two numbers."
 authors = [{ name = "Miguel Jimenez-Urias", email = "mjimenez@opendap.org" }]
@@ -15,4 +15,4 @@ requires-python = ">=3.10"
 "Homepage" = "https://github.com/Mikejmnez/multiplier"
 
 [project.entry-points."console_scripts"]
-multiply = "multiplier:multiply"
+console_bundle = "calculator_bundle.multiplier:multiply"
